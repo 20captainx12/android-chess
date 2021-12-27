@@ -1,14 +1,5 @@
-android-chess
+materialyou-chess
 =============
 
-Chess game for Android
-- Published in the Google Play store https://play.google.com/store/apps/details?id=jwtc.android.chess
-- Contributions are welcome
-
-Roadmap
-- take items from the feature-request list (GitHub issue list)
-- new high-res piece-sets
-- translation to other languages (starting with Italian)
-- add an "ECO" button to explore and choose an opening from the ECO opening database
-- tournament / competition
-- screen cast
+This is an attempt at a "Material you" reskin to a chess app for Android 12.
+This is my first android project, so please understand.
