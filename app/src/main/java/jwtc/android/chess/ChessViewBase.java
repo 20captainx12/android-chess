@@ -18,6 +18,8 @@ import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.graphics.BitmapFactory;
 import android.graphics.Rect;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.util.TypedValue;
@@ -60,6 +62,7 @@ public class ChessViewBase{
 
 	}
 
+	@RequiresApi(api = Build.VERSION_CODES.S)
 	public void init(OnClickListener ocl, OnLongClickListener olcl){
 		Log.i("ChessViewBase", "init() called");
 		_flippedBoard = false;
@@ -206,8 +209,8 @@ public class ChessViewBase{
 		ChessImageView._arrColorScheme[1][2] = 0xcc9fdef3;
 
 		// green
-		ChessImageView._arrColorScheme[2][0] = 0xff8eb59b;
-		ChessImageView._arrColorScheme[2][1] = 0xffcae787;
+		ChessImageView._arrColorScheme[2][0] = 0xff3b6931; //Integer.parseInt(Integer.toHexString(android.R.color.system_accent1_600));
+		ChessImageView._arrColorScheme[2][1] = 0xff6b9d5f; //Integer.parseInt(Integer.toHexString(android.R.color.system_accent1_400));
 		ChessImageView._arrColorScheme[2][2] = 0xcc9ff3b4;
 
 		// grey

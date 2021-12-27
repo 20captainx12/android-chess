@@ -6,8 +6,8 @@ android {
             storeFile file('/Users/jcarolus/Projecten/Chess/android-keystore')
         }
     }
-    compileSdkVersion 28
-    buildToolsVersion '28.0.3'
+    compileSdkVersion 31
+    buildToolsVersion '30.0.3'
     defaultConfig {
         applicationId "jwtc.android.chess"
         minSdkVersion 14
